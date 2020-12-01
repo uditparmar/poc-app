@@ -29,7 +29,7 @@ import InputSearchBar from "../components/searchbar";
 import Footer from "./layouts/footer";
 import DepartmentDialogue from "../components/departmentDialogue";
 
-const url = "http://localhost:3000"
+const url = "https://poc-app.vercel.app"
 
 export default function MyApp({ Component, pageProps }) {
   const [jobs, setJobs] = useState([]);
